@@ -1,268 +1,403 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en" dir="ltr">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>سياسة الخصوصية — Felicity Monitor | Privacy Policy</title>
+<title>Privacy Policy — FSolar Monitor (Felicity Monitor) | سياسة الخصوصية</title>
+<meta name="description" content="Privacy policy of the Android app FSolar Monitor (shown on the device as Felicity Monitor), package com.felicity.monitor, published on Google Play by Mohamad Mohamad.">
 <style>
   :root {
     --bg: #07091A; --card: #0E1530; --border: #1E2B5A;
-    --accent: #2979FF; --gold: #FFD600; --text: #E8EAF6; --mist: #7986CB;
+    --accent: #2979FF; --gold: #FFD600; --text: #E8EAF6; --mist: #9FA8DA;
     --green: #00C853; --red: #EF5350;
   }
   * { box-sizing: border-box; }
   body {
     margin: 0; background: var(--bg); color: var(--text);
     font-family: -apple-system, "Segoe UI", Tahoma, Arial, sans-serif;
-    line-height: 1.85; padding: 0 0 64px;
+    line-height: 1.75; padding: 0 0 64px;
   }
   header {
     background: linear-gradient(160deg, #0A0E25 0%, #14306B 60%, #1565C0 100%);
-    padding: 44px 20px 34px; text-align: center; border-bottom: 1px solid var(--border);
+    padding: 40px 20px 30px; text-align: center; border-bottom: 1px solid var(--border);
   }
   header h1 { margin: 0 0 6px; font-size: 1.7rem; }
-  header .sub { color: var(--gold); font-size: .95rem; }
-  header .meta { color: var(--mist); font-size: .82rem; margin-top: 10px; }
-  main { max-width: 820px; margin: 0 auto; padding: 0 20px; }
+  header .sub { color: var(--gold); font-size: 1rem; }
+  header .meta { color: var(--mist); font-size: .85rem; margin-top: 10px; }
+  main { max-width: 820px; margin: 0 auto; padding: 0 16px; }
   section {
     background: var(--card); border: 1px solid var(--border); border-radius: 16px;
-    padding: 20px 22px; margin: 22px 0;
+    padding: 18px 20px; margin: 20px 0;
   }
   h2 { color: var(--accent); font-size: 1.15rem; margin: 0 0 8px; }
-  h3 { color: var(--gold); font-size: 1rem; margin: 18px 0 4px; }
-  a { color: var(--gold); }
+  h3 { color: var(--gold); font-size: 1rem; margin: 16px 0 4px; }
+  a { color: var(--gold); overflow-wrap: anywhere; }
   ul { padding-inline-start: 22px; }
   li { margin: 6px 0; }
   table { width: 100%; border-collapse: collapse; margin-top: 10px; font-size: .92rem; }
-  th, td { border: 1px solid var(--border); padding: 8px 10px; text-align: start; }
+  th, td { border: 1px solid var(--border); padding: 8px 10px; text-align: start; vertical-align: top; }
   th { background: #0A0E25; color: var(--accent); }
-  code { background: #00000055; padding: 2px 6px; border-radius: 6px; font-size: .9em; }
-  .pill { display:inline-block; background:#2979FF22; border:1px solid #2979FF55;
-          color:var(--accent); border-radius:20px; padding:2px 12px; font-size:.8rem; margin:2px 0; }
+  .table-wrap { overflow-x: auto; }
+  code { background: #00000055; padding: 2px 6px; border-radius: 6px; font-size: .9em; overflow-wrap: anywhere; }
+  .id td:first-child { color: var(--mist); white-space: nowrap; width: 40%; }
   .ok { color: var(--green); }
   .no { color: var(--red); }
-  .en { direction: ltr; text-align: left; border-top: 1px dashed var(--border);
-        margin-top: 40px; padding-top: 8px; }
-  .en[lang] { unicode-bidi: isolate; }
-  footer { text-align:center; color: var(--mist); font-size:.8rem; margin-top: 32px; }
+  .lang-switch { text-align: center; margin: 16px 0 0; }
+  .ar { direction: rtl; text-align: right; border-top: 2px dashed var(--border); margin-top: 44px; padding-top: 8px; }
+  .ar h1 { text-align: center; color: var(--text); font-size: 1.5rem; margin: 18px 0 4px; }
+  footer { text-align: center; color: var(--mist); font-size: .82rem; margin-top: 32px; }
 </style>
 </head>
 <body>
 
 <header>
-  <h1>سياسة الخصوصية</h1>
-  <div class="sub">Felicity Monitor — مراقبة نظام الطاقة الشمسية</div>
-  <div class="meta">آخر تحديث: 12 آب/أغسطس 2026</div>
+  <h1>Privacy Policy</h1>
+  <div class="sub">FSolar Monitor — solar inverter monitoring</div>
+  <div class="meta">Last updated: 24 October 2026 · <a href="#ar">العربية</a></div>
 </header>
 
 <main>
 
+<!-- ═══════════════════════════ ENGLISH ═══════════════════════════ -->
+
 <section>
-  <h2>الخلاصة</h2>
+  <h2>1. Who we are and which app this policy covers</h2>
   <p>
-    Felicity Monitor تطبيق لمراقبة انفرتر الطاقة الشمسية الخاص بك. <strong>لا نملك خوادم،
-    ولا نجمع بياناتك على أي نظام تابع لنا، ولا نبيع أي معلومة لأي جهة.</strong>
-    كل ما تُدخله يبقى مخزّناً على جهازك، ولا يُرسل إلا إلى الجهات التي تختارها أنت:
-    خدمة Felicity Solar السحابية لجلب قراءات الانفرتر، و Telegram لإرسال التنبيهات إليك.
+    This privacy policy applies to the Android app <strong>FSolar Monitor</strong>, published on
+    Google Play by the developer <strong>Mohamad Mohamad</strong>. The same app appears on the
+    device's home screen and inside the app under the name <strong>Felicity Monitor</strong>.
+  </p>
+  <div class="table-wrap">
+  <table class="id">
+    <tr><td>App name on Google Play</td><td><strong>FSolar Monitor</strong></td></tr>
+    <tr><td>App name on the device</td><td>Felicity Monitor</td></tr>
+    <tr><td>Package name (application ID)</td><td><code>com.felicity.monitor</code></td></tr>
+    <tr><td>Developer (Google Play developer name)</td><td><strong>Mohamad Mohamad</strong> (individual developer)</td></tr>
+    <tr><td>Contact email</td><td><a href="mailto:mmido80@gmail.com">mmido80@gmail.com</a></td></tr>
+    <tr><td>Developer page on Google Play</td><td><a href="https://play.google.com/store/apps/developer?id=Mohamad+Mohamad">play.google.com/store/apps/developer?id=Mohamad+Mohamad</a></td></tr>
+  </table>
+  </div>
+  <p>
+    In this policy, “we”, “us” and “the developer” mean Mohamad Mohamad, and “the app” means
+    FSolar Monitor (Felicity Monitor).
   </p>
   <p>
-    <span class="pill">لا إعلانات</span>
-    <span class="pill">لا بيع بيانات</span>
-    <span class="pill">لا حسابات لدينا</span>
-    <span class="pill">التخزين على جهازك</span>
+    FSolar Monitor is an <strong>independent app</strong>. It is not made, endorsed or operated by
+    Felicity Solar. “Felicity Solar” is used only to describe the inverters and the cloud service
+    the app connects to on your behalf.
   </p>
 </section>
 
 <section>
-  <h2>١. البيانات التي تُدخلها أنت</h2>
-
-  <h3>بيانات حساب Felicity Solar</h3>
+  <h2>2. Summary</h2>
   <p>
-    لجلب قراءات الانفرتر يحتاج التطبيق بريدك الإلكتروني وكلمة المرور الخاصّين بحسابك على
-    <code>shine.felicitysolar.com</code>. تُخزَّن هذه البيانات <strong>على جهازك فقط</strong>
-    ضمن التخزين الخاص بالتطبيق (Android DataStore) الذي لا تصل إليه التطبيقات الأخرى.
-    تُرسَل كلمة المرور مشفّرة إلى خادم Felicity Solar عند تسجيل الدخول فقط، ولا تصل إلينا
-    ولا إلى أي طرف ثالث آخر.
+    FSolar Monitor lets you monitor your own solar inverter, battery and consumption.
+    <strong>The developer operates no servers, does not collect your data on any system of ours,
+    and never sells or shares your data for advertising.</strong>
+    What you enter is stored on your device and is sent only to the services needed for the
+    features you use: the Felicity Solar cloud (to read your system), Telegram (only if you turn
+    on Telegram alerts), and Google Analytics for Firebase (anonymous usage statistics).
   </p>
-  <p>
-    خيار «تذكّرني» هو ما يحفظ كلمة المرور محلياً لإعادة تسجيل الدخول تلقائياً عند انتهاء
-    صلاحية الجلسة. إن أوقفته، لا تُحفظ كلمة المرور.
-  </p>
+  <ul>
+    <li class="ok">✔ No ads · No sale of data · No accounts with us · Data stays on your device</li>
+  </ul>
+</section>
 
-  <h3>إعدادات Telegram</h3>
+<section>
+  <h2>3. Data you enter and how it is stored</h2>
+  <h3>Felicity Solar account details</h3>
   <p>
-    إن أردت تلقّي التنبيهات، تُدخل رمز البوت (Bot Token) ومعرّف المحادثة (Chat ID). يُخزَّنان
-    على جهازك ويُستخدمان حصراً لإرسال رسائل التنبيه إلى محادثتك أنت عبر
-    <code>api.telegram.org</code>. لا يمكننا قراءة رسائلك ولا الوصول إلى بوتك.
+    To read your inverter, the app needs the email and password of your account on
+    <code>shine.felicitysolar.com</code>. You can add more than one account. These details are stored
+    <strong>only on your device</strong>, in the app's private storage, and the password and session
+    token are <strong>encrypted with a key held in the Android Keystore</strong> that never leaves the
+    device. The password is sent (encrypted, over HTTPS) only to the Felicity Solar server when
+    signing in. It is never sent to the developer or to any other party. You can also use the
+    public demo plant without entering any account.
   </p>
-
-  <h3>سجلّ الاستهلاك</h3>
+  <h3>Telegram settings (optional)</h3>
   <p>
-    يحسب التطبيق استهلاكك اليومي والأسبوعي والشهري ويحفظه في ملف داخل مساحة التطبيق على
-    جهازك. لا تُرفع هذه السجلات إلى أي مكان، وتُحذف بالكامل عند حذف التطبيق.
+    If you choose to receive alerts on Telegram, you enter a bot token and chat ID. They are stored on
+    your device and used only to send alert and report messages to your own chat through
+    <code>api.telegram.org</code>.
+  </p>
+  <h3>Settings and battery information</h3>
+  <p>
+    Alert thresholds, language, report schedule, battery cut-off level and battery capacity you enter
+    are stored on your device only.
   </p>
 </section>
 
 <section>
-  <h2>٢. الجهات التي تتصل بها البيانات</h2>
+  <h2>4. Data the app reads and creates on your device</h2>
+  <ul>
+    <li><strong>Inverter and battery readings</strong> (solar, battery, grid, load, temperatures,
+        battery management system (BMS) data such as cell voltages and health) are read from the
+        Felicity Solar cloud for the accounts you added.</li>
+    <li><strong>Consumption history and battery forecast:</strong> the app saves daily totals and an
+        analysis of your battery (estimated capacity, usage patterns, expected runtime) in files in
+        its private storage on your device. They are never uploaded to the developer.</li>
+    <li><strong>Home-screen widget:</strong> shows the latest saved reading; it uses the same local
+        data and sends nothing elsewhere.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>5. Services the app communicates with</h2>
+  <div class="table-wrap">
   <table>
-    <tr><th>الجهة</th><th>ما يُرسَل</th><th>لماذا</th></tr>
+    <tr><th>Service</th><th>What is sent</th><th>Why</th></tr>
     <tr>
-      <td>Felicity Solar Cloud<br><code>shine-api.felicitysolar.com</code></td>
-      <td>بيانات الدخول ورقم الجهاز التسلسلي</td>
-      <td>جلب قراءات الانفرتر</td>
+      <td>Felicity Solar cloud<br><code>shine-api.felicitysolar.com</code></td>
+      <td>Your account email, encrypted password, session token, device serial numbers</td>
+      <td>Sign in and read your inverter, battery, history and energy totals</td>
     </tr>
     <tr>
       <td>Telegram<br><code>api.telegram.org</code></td>
-      <td>نص التنبيه ومعرّف محادثتك</td>
-      <td>إيصال التنبيهات إليك (اختياري)</td>
+      <td>Alert/report text and your chat ID (only if you enable it)</td>
+      <td>Deliver alerts and periodic reports to you</td>
     </tr>
     <tr>
-      <td>Google Analytics for Firebase</td>
-      <td>أحداث استخدام مجهولة المصدر</td>
-      <td>معرفة الأعطال والمزايا المستخدمة</td>
+      <td>Google Analytics for Firebase<br>(Google LLC)</td>
+      <td>Anonymous usage events, general device information, a random app-instance ID</td>
+      <td>Understand which features are used and diagnose failures</td>
     </tr>
   </table>
-  <p style="margin-top:12px">
-    تخضع بياناتك لدى هذه الجهات لسياساتها هي:
-    <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">سياسة Google</a> ·
-    <a href="https://telegram.org/privacy" target="_blank" rel="noopener">سياسة Telegram</a>.
+  </div>
+  <p>
+    All connections use encrypted HTTPS. Data held by these services is governed by their own
+    policies: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>,
+    <a href="https://telegram.org/privacy" target="_blank" rel="noopener">Telegram Privacy Policy</a>,
+    and the privacy policy of Felicity Solar for your Felicity Solar account.
   </p>
 </section>
 
 <section>
-  <h2>٣. التحليلات</h2>
+  <h2>6. Analytics</h2>
   <p>
-    نستخدم Google Analytics for Firebase لفهم كيفية استخدام التطبيق وإصلاح الأعطال.
-    ما يُجمَع هو أحداث تقنية مثل: فتح التطبيق، الشاشة المعروضة، نجاح أو فشل تسجيل الدخول،
-    حدوث خطأ في التحديث، وإرسال تنبيه — إضافةً إلى معلومات عامة عن الجهاز (الطراز، إصدار
-    أندرويد، البلد التقريبي) ومعرّف تطبيق عشوائي.
+    Google Analytics for Firebase records technical events: app opened, screen viewed, sign-in
+    succeeded or failed, data refreshed or failed to refresh, alert or report sent, settings saved,
+    Telegram test sent, dashboard page swiped, and the selected app language,
+    together with general device information (model, Android version, approximate country) and a
+    random app-instance identifier.
   </p>
   <p class="ok">
-    ✔ لا نرسل إلى التحليلات: بريدك، كلمة مرورك، رمز بوت Telegram، رقم جهازك التسلسلي،
-    ولا أي قراءة من قراءات نظامك الشمسي.
+    ✔ We never send to analytics your email, password, Telegram token, device serial numbers,
+    or any reading from your solar system.
   </p>
 </section>
 
 <section>
-  <h2>٤. الأذونات ولماذا نطلبها</h2>
+  <h2>7. Permissions</h2>
   <ul>
-    <li><strong>الإنترنت</strong> — للاتصال بخدمة Felicity Solar و Telegram.</li>
-    <li><strong>الإشعارات</strong> — لعرض حالة النظام والتنبيهات العاجلة.</li>
-    <li><strong>خدمة تعمل في المقدّمة</strong> — لمواصلة المراقبة وإرسال التنبيهات
-        والتطبيق مغلق.</li>
-    <li><strong>التشغيل عند الإقلاع</strong> — لاستئناف المراقبة تلقائياً بعد إعادة تشغيل
-        الجهاز.</li>
-    <li><strong>إبقاء المعالج مستيقظاً</strong> — لئلا يُقطع التحديث الدوري أثناء نوم الجهاز.</li>
+    <li><strong>Internet / network state</strong> — connect to Felicity Solar, Telegram and Firebase.</li>
+    <li><strong>Notifications</strong> — show the monitoring status and urgent alerts.</li>
+    <li><strong>Foreground service (data sync)</strong> — keep monitoring and alerting while the app is closed.</li>
+    <li><strong>Run at startup</strong> — resume monitoring after the phone restarts.</li>
+    <li><strong>Wake lock</strong> — finish each short refresh cycle without interruption.</li>
   </ul>
-  <p class="no">✘ لا نطلب: الموقع، جهات الاتصال، الكاميرا، الميكروفون، أو ملفاتك.</p>
+  <p class="no">✘ The app does not request location, contacts, camera, microphone, photos or your files.</p>
 </section>
 
 <section>
-  <h2>٥. الأطفال</h2>
-  <p>
-    التطبيق أداة تقنية لأصحاب أنظمة الطاقة الشمسية وليس موجّهاً للأطفال دون ١٣ عاماً،
-    ولا نجمع عن قصد أي بيانات منهم.
-  </p>
-</section>
-
-<section>
-  <h2>٦. حقوقك والتحكّم ببياناتك</h2>
+  <h2>8. Data retention and deletion</h2>
   <ul>
-    <li><strong>الحذف الكامل:</strong> حذف التطبيق يمحو بيانات الدخول والإعدادات وسجلّ
-        الاستهلاك من جهازك نهائياً.</li>
-    <li><strong>تسجيل الخروج:</strong> يمسح الرمز وكلمة المرور المحفوظة فوراً.</li>
-    <li><strong>إيقاف التنبيهات:</strong> امسح رمز البوت من الإعدادات فيتوقف الإرسال إلى
-        Telegram.</li>
-    <li><strong>حسابك لدى Felicity Solar:</strong> يُدار من موقعهم مباشرةً، ولا نملك
-        صلاحية عليه.</li>
+    <li><strong>Remove an account</strong> in the app (Accounts → Delete): its credentials, readings,
+        history and battery analysis are deleted from your device immediately.</li>
+    <li><strong>Uninstall the app:</strong> all app data on your device is permanently erased.</li>
+    <li><strong>Stop Telegram messages:</strong> clear the bot token in Settings.</li>
+    <li><strong>Your Felicity Solar account</strong> is managed by Felicity Solar; the developer has
+        no access to it.</li>
+    <li>The developer stores no copy of your data, so there is nothing on our side to delete. You
+        can still contact us with any request at <a href="mailto:mmido80@gmail.com">mmido80@gmail.com</a>.</li>
   </ul>
 </section>
 
 <section>
-  <h2>٧. التعديلات على هذه السياسة</h2>
+  <h2>9. Security</h2>
   <p>
-    قد نحدّث هذه الصفحة عند إضافة مزايا جديدة. يظهر تاريخ آخر تحديث في أعلى الصفحة،
-    وتُذكر التغييرات الجوهرية في ملاحظات إصدار التطبيق على المتجر.
+    Passwords and session tokens are encrypted with the Android Keystore, and all network traffic uses
+    HTTPS with standard certificate validation. Your accounts, readings and widget settings are
+    excluded from Android cloud backup, so credentials are not copied off your device. Other settings
+    (such as alert thresholds and the Telegram bot token) may be included in your own Google backup if
+    you have Android backup turned on.
   </p>
 </section>
 
 <section>
-  <h2>٨. التواصل</h2>
+  <h2>10. Children</h2>
   <p>
-    لأي سؤال أو طلب متعلّق بالخصوصية:
-    <a href="mailto:mmouhamad@hotmail.com">mmouhamad@hotmail.com</a>
-  </p>
-</section>
-
-<!-- ─────────────── English ─────────────── -->
-<div class="en" lang="en" dir="ltr">
-
-<section>
-  <h2>Summary (English)</h2>
-  <p>
-    Felicity Monitor is an app for monitoring your own solar inverter.
-    <strong>We operate no servers, collect nothing on our side, and sell no data.</strong>
-    Everything you enter stays on your device and is sent only to the services you choose:
-    the Felicity Solar cloud to read your inverter, and Telegram to deliver your alerts.
+    The app is a technical tool for owners of solar power systems and is not directed at children
+    under 13. We do not knowingly collect data from children.
   </p>
 </section>
 
 <section>
-  <h2>What you enter</h2>
+  <h2>11. Changes to this policy</h2>
+  <p>
+    We may update this policy when features change. The date at the top shows the latest version,
+    and significant changes are mentioned in the app's release notes on Google Play.
+  </p>
+</section>
+
+<section>
+  <h2>12. Contact</h2>
+  <p>
+    Developer: <strong>Mohamad Mohamad</strong><br>
+    App: <strong>FSolar Monitor</strong> (Felicity Monitor) — <code>com.felicity.monitor</code><br>
+    Email: <a href="mailto:mmido80@gmail.com">mmido80@gmail.com</a>
+  </p>
+</section>
+
+<!-- ═══════════════════════════ ARABIC ═══════════════════════════ -->
+
+<div class="ar" lang="ar" dir="rtl" id="ar">
+
+<h1>سياسة الخصوصية</h1>
+<p style="text-align:center;color:var(--gold);margin:0">FSolar Monitor — مراقبة انفرتر الطاقة الشمسية</p>
+<p style="text-align:center;color:var(--mist);font-size:.85rem">آخر تحديث: 24 تشرين الأول/أكتوبر 2026</p>
+
+<section>
+  <h2>١. من نحن وما التطبيق الذي تشمله هذه السياسة</h2>
+  <p>
+    تنطبق هذه السياسة على تطبيق أندرويد <strong>FSolar Monitor</strong> المنشور على Google Play
+    من قِبل المطوّر <strong>Mohamad Mohamad</strong>. ويظهر التطبيق نفسه على شاشة الجهاز وداخل
+    التطبيق باسم <strong>Felicity Monitor</strong>.
+  </p>
+  <div class="table-wrap">
+  <table class="id">
+    <tr><td>اسم التطبيق على Google Play</td><td><strong>FSolar Monitor</strong></td></tr>
+    <tr><td>اسم التطبيق على الجهاز</td><td>Felicity Monitor</td></tr>
+    <tr><td>اسم الحزمة (Package)</td><td><code dir="ltr">com.felicity.monitor</code></td></tr>
+    <tr><td>المطوّر (الاسم على Google Play)</td><td><strong>Mohamad Mohamad</strong> (مطوّر فرد)</td></tr>
+    <tr><td>البريد الإلكتروني للتواصل</td><td><a href="mailto:mmido80@gmail.com">mmido80@gmail.com</a></td></tr>
+  </table>
+  </div>
+  <p>
+    التطبيق <strong>مستقلّ</strong>، ولا تصنعه شركة Felicity Solar ولا تتبنّاه ولا تديره؛ يُذكر اسم
+    Felicity Solar فقط لوصف الانفرترات والخدمة السحابية التي يتصل بها التطبيق نيابةً عنك.
+  </p>
+</section>
+
+<section>
+  <h2>٢. الخلاصة</h2>
+  <p>
+    يتيح لك FSolar Monitor مراقبة انفرترك وبطاريتك واستهلاكك. <strong>لا يملك المطوّر خوادم، ولا يجمع
+    بياناتك على أي نظام تابع له، ولا يبيعها ولا يشاركها لأغراض إعلانية.</strong>
+    ما تُدخله يُخزَّن على جهازك، ولا يُرسل إلا إلى الخدمات اللازمة للمزايا التي تستخدمها:
+    سحابة Felicity Solar (لقراءة نظامك)، و Telegram (فقط إن فعّلت تنبيهاته)، و Google Analytics for
+    Firebase (إحصاءات استخدام مجهولة).
+  </p>
+</section>
+
+<section>
+  <h2>٣. البيانات التي تُدخلها وكيف تُحفظ</h2>
   <ul>
-    <li><strong>Felicity Solar credentials</strong> — stored only on your device (Android
-        DataStore). The password is sent encrypted to <code>shine-api.felicitysolar.com</code>
-        at sign-in. It never reaches us.</li>
-    <li><strong>Telegram bot token and chat ID</strong> — stored on your device, used only to
-        send alert messages to your own chat.</li>
-    <li><strong>Consumption history</strong> — computed and saved in the app's private storage.
-        Never uploaded. Removed when you uninstall.</li>
+    <li><strong>بيانات حساب Felicity Solar</strong> (البريد وكلمة المرور، ويمكن إضافة أكثر من حساب):
+        تُحفظ على جهازك فقط، وكلمة المرور ورمز الجلسة <strong>مشفّران بمفتاح في Android Keystore</strong>
+        لا يغادر الجهاز. تُرسل كلمة المرور مشفّرة عبر HTTPS إلى خادم Felicity Solar عند تسجيل الدخول
+        فقط، ولا تصل إلى المطوّر ولا إلى أي طرف آخر. ويمكن استخدام محطة العرض العامة دون أي حساب.</li>
+    <li><strong>إعدادات Telegram</strong> (اختيارية): رمز البوت ومعرّف المحادثة على جهازك، ويُستخدمان
+        فقط لإرسال التنبيهات والتقارير إلى محادثتك عبر <code dir="ltr">api.telegram.org</code>.</li>
+    <li><strong>الإعدادات ومعلومات البطارية</strong> (حدود التنبيه، اللغة، حدّ الإيقاف، سعة البطارية):
+        على جهازك فقط.</li>
   </ul>
 </section>
 
 <section>
-  <h2>Analytics</h2>
-  <p>
-    We use Google Analytics for Firebase to understand feature usage and diagnose failures.
-    It records technical events (app open, screen viewed, sign-in success or failure, refresh
-    error, alert sent) plus general device information and a random app instance ID.
-  </p>
-  <p class="ok">
-    We never send your email, password, Telegram token, device serial number, or any reading
-    from your solar system to analytics.
-  </p>
-</section>
-
-<section>
-  <h2>Permissions</h2>
+  <h2>٤. البيانات التي يقرؤها التطبيق وينشئها على جهازك</h2>
   <ul>
-    <li><strong>Internet</strong> — reach Felicity Solar and Telegram.</li>
-    <li><strong>Notifications</strong> — show system status and urgent alerts.</li>
-    <li><strong>Foreground service</strong> — keep monitoring while the app is closed.</li>
-    <li><strong>Boot completed</strong> — resume monitoring after a restart.</li>
-    <li><strong>Wake lock</strong> — prevent the periodic refresh from being interrupted.</li>
+    <li><strong>قراءات الانفرتر والبطارية</strong> (الألواح، البطارية، الشبكة، الحمل، الحرارة، وبيانات
+        نظام إدارة البطارية BMS مثل جهد الخلايا والصحة) تُقرأ من سحابة Felicity Solar للحسابات التي
+        أضفتها.</li>
+    <li><strong>سجلّ الاستهلاك وتوقّع البطارية:</strong> يحفظ التطبيق إجماليات يومية وتحليلاً لبطاريتك
+        (السعة المقدّرة، أنماط الاستخدام، الوقت المتوقّع) في ملفات خاصة به على جهازك، ولا تُرفع إلى
+        المطوّر.</li>
+    <li><strong>الويدجت:</strong> يعرض آخر قراءة محفوظة من البيانات المحلية نفسها.</li>
   </ul>
-  <p class="no">We do not request location, contacts, camera, microphone, or your files.</p>
 </section>
 
 <section>
-  <h2>Your control</h2>
+  <h2>٥. الخدمات التي يتصل بها التطبيق</h2>
+  <div class="table-wrap">
+  <table>
+    <tr><th>الخدمة</th><th>ما يُرسَل</th><th>لماذا</th></tr>
+    <tr><td>سحابة Felicity Solar</td><td>البريد، كلمة المرور مشفّرة، رمز الجلسة، الأرقام التسلسلية للأجهزة</td><td>تسجيل الدخول وقراءة الانفرتر والبطارية والسجل والإجماليات</td></tr>
+    <tr><td>Telegram</td><td>نص التنبيه/التقرير ومعرّف محادثتك (إن فعّلته)</td><td>إيصال التنبيهات والتقارير إليك</td></tr>
+    <tr><td>Google Analytics for Firebase</td><td>أحداث استخدام مجهولة، معلومات عامة عن الجهاز، معرّف تطبيق عشوائي</td><td>معرفة المزايا المستخدمة وتشخيص الأعطال</td></tr>
+  </table>
+  </div>
+  <p>كل الاتصالات مشفّرة عبر HTTPS، وتخضع البيانات لدى هذه الخدمات لسياساتها الخاصة.</p>
+</section>
+
+<section>
+  <h2>٦. التحليلات</h2>
   <p>
-    Uninstalling the app permanently erases credentials, settings, and history from your device.
-    Signing out clears the stored token and password immediately. Clearing the bot token stops
-    all Telegram delivery.
+    تُسجَّل أحداث تقنية: فتح التطبيق، الشاشة المعروضة، نجاح أو فشل تسجيل الدخول، نجاح التحديث أو
+    فشله، إرسال تنبيه أو تقرير، حفظ الإعدادات، اختبار Telegram، تقليب صفحات اللوحة، ولغة التطبيق —
+    مع معلومات عامة عن الجهاز ومعرّف تطبيق عشوائي.
+  </p>
+  <p class="ok">✔ لا نرسل إلى التحليلات بريدك ولا كلمة مرورك ولا رمز Telegram ولا الأرقام التسلسلية ولا أي قراءة من نظامك.</p>
+</section>
+
+<section>
+  <h2>٧. الأذونات</h2>
+  <ul>
+    <li><strong>الإنترنت وحالة الشبكة</strong> — للاتصال بـ Felicity Solar و Telegram و Firebase.</li>
+    <li><strong>الإشعارات</strong> — لعرض حالة المراقبة والتنبيهات العاجلة.</li>
+    <li><strong>خدمة تعمل في المقدّمة (مزامنة بيانات)</strong> — لمواصلة المراقبة والتطبيق مغلق.</li>
+    <li><strong>التشغيل عند الإقلاع</strong> — لاستئناف المراقبة بعد إعادة تشغيل الهاتف.</li>
+    <li><strong>إبقاء المعالج مستيقظاً</strong> — لإتمام كل دورة تحديث قصيرة دون انقطاع.</li>
+  </ul>
+  <p class="no">✘ لا يطلب التطبيق الموقع ولا جهات الاتصال ولا الكاميرا ولا الميكروفون ولا الصور ولا ملفاتك.</p>
+</section>
+
+<section>
+  <h2>٨. الاحتفاظ بالبيانات وحذفها</h2>
+  <ul>
+    <li><strong>حذف حساب</strong> من التطبيق (الحسابات ← حذف) يمحو بياناته وقراءاته وسجلّه وتحليل بطاريته من جهازك فوراً.</li>
+    <li><strong>حذف التطبيق</strong> يمحو كل بياناته من جهازك نهائياً.</li>
+    <li><strong>إيقاف رسائل Telegram:</strong> امسح رمز البوت من الإعدادات.</li>
+    <li><strong>حسابك لدى Felicity Solar</strong> تديره Felicity Solar، ولا يملك المطوّر صلاحية عليه.</li>
+    <li>لا يحتفظ المطوّر بأي نسخة من بياناتك؛ ولأي طلب يمكنك مراسلتنا على <a href="mailto:mmido80@gmail.com">mmido80@gmail.com</a>.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>٩. الأمان</h2>
+  <p>
+    كلمات المرور ورموز الجلسة مشفّرة عبر Android Keystore، وكل الاتصالات عبر HTTPS مع التحقّق المعتاد
+    من الشهادات. الحسابات والقراءات وإعدادات الويدجت مستثناة من النسخ الاحتياطي السحابي فلا تُنسخ بيانات
+    الدخول خارج جهازك؛ أما بقية الإعدادات (كحدود التنبيه ورمز بوت Telegram) فقد تُضمَّن في نسختك
+    الاحتياطية لدى Google إن كان النسخ الاحتياطي مفعّلاً في جهازك.
   </p>
 </section>
 
 <section>
-  <h2>Contact</h2>
-  <p><a href="mailto:mmouhamad@hotmail.com">mmouhamad@hotmail.com</a></p>
+  <h2>١٠. الأطفال</h2>
+  <p>التطبيق أداة تقنية لأصحاب أنظمة الطاقة الشمسية وليس موجّهاً للأطفال دون ١٣ عاماً، ولا نجمع عن قصد أي بيانات منهم.</p>
+</section>
+
+<section>
+  <h2>١١. التعديلات على هذه السياسة</h2>
+  <p>قد نحدّث هذه السياسة عند تغيّر المزايا؛ يظهر تاريخ آخر تحديث في أعلاها، وتُذكر التغييرات الجوهرية في ملاحظات الإصدار على Google Play.</p>
+</section>
+
+<section>
+  <h2>١٢. التواصل</h2>
+  <p>
+    المطوّر: <strong>Mohamad Mohamad</strong><br>
+    التطبيق: <strong>FSolar Monitor</strong> (Felicity Monitor) — <code dir="ltr">com.felicity.monitor</code><br>
+    البريد: <a href="mailto:mmido80@gmail.com">mmido80@gmail.com</a>
+  </p>
 </section>
 
 </div>
 
-<footer>© 2026 Felicity Monitor — آخر تحديث 12 آب/أغسطس 2026</footer>
+<footer>
+  © 2026 Mohamad Mohamad — FSolar Monitor (Felicity Monitor) · com.felicity.monitor<br>
+  Last updated 24 October 2026 · آخر تحديث 24 تشرين الأول/أكتوبر 2026
+</footer>
 
 </main>
 </body>
